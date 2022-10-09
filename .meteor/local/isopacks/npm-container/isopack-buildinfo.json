@@ -1,0 +1,140 @@
+{
+  "builtBy": "meteor/34",
+  "unibuildDependencies": {
+    "os.json": {
+      "files": {
+        "/Users/a37/code/github/makemeahanzi-tool/packages/npm-container/package.js": "c3e8cd3a62b69505df8ff57b09717e4ef755de55",
+        "/Users/a37/code/github/makemeahanzi-tool/packages/npm-container/.npm/package/npm-shrinkwrap.json": "def3ad7017c354fb17866cabfae6dd35aae4dc61",
+        "/Users/a37/code/github/makemeahanzi-tool/packages.json": "90ec2b7a8e59502ce24ead7ade1b32e981cfd56e",
+        "/Users/a37/code/github/makemeahanzi-tool/packages/npm-container/index.js": "f8380eac8c7264a90832d7a7d590ace6076d8f08"
+      },
+      "potentiallyUnusedFiles": [
+        "/Users/a37/code/github/makemeahanzi-tool/packages/npm-container/index.js"
+      ],
+      "directories": [
+        {
+          "absPath": "/Users/a37/code/github/makemeahanzi-tool/packages/npm-container",
+          "include": [
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "index.js",
+            "package.js"
+          ]
+        },
+        {
+          "absPath": "/Users/a37/code/github/makemeahanzi-tool/packages/npm-container",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^\\."
+          ],
+          "contents": []
+        }
+      ]
+    },
+    "web.browser.json": {
+      "files": {
+        "/Users/a37/code/github/makemeahanzi-tool/packages/npm-container/package.js": "c3e8cd3a62b69505df8ff57b09717e4ef755de55",
+        "/Users/a37/code/github/makemeahanzi-tool/packages/npm-container/.npm/package/npm-shrinkwrap.json": "def3ad7017c354fb17866cabfae6dd35aae4dc61",
+        "/Users/a37/code/github/makemeahanzi-tool/packages/npm-container/index.js": "f8380eac8c7264a90832d7a7d590ace6076d8f08"
+      },
+      "potentiallyUnusedFiles": [
+        "/Users/a37/code/github/makemeahanzi-tool/packages/npm-container/index.js"
+      ],
+      "directories": [
+        {
+          "absPath": "/Users/a37/code/github/makemeahanzi-tool/packages/npm-container",
+          "include": [
+            "\\.css$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "index.js",
+            "package.js"
+          ]
+        },
+        {
+          "absPath": "/Users/a37/code/github/makemeahanzi-tool/packages/npm-container",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^\\."
+          ],
+          "contents": []
+        }
+      ]
+    },
+    "web.browser.legacy.json": {
+      "files": {
+        "/Users/a37/code/github/makemeahanzi-tool/packages/npm-container/package.js": "c3e8cd3a62b69505df8ff57b09717e4ef755de55",
+        "/Users/a37/code/github/makemeahanzi-tool/packages/npm-container/.npm/package/npm-shrinkwrap.json": "def3ad7017c354fb17866cabfae6dd35aae4dc61",
+        "/Users/a37/code/github/makemeahanzi-tool/packages/npm-container/index.js": "f8380eac8c7264a90832d7a7d590ace6076d8f08"
+      },
+      "potentiallyUnusedFiles": [
+        "/Users/a37/code/github/makemeahanzi-tool/packages/npm-container/index.js"
+      ],
+      "directories": [
+        {
+          "absPath": "/Users/a37/code/github/makemeahanzi-tool/packages/npm-container",
+          "include": [
+            "\\.css$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "index.js",
+            "package.js"
+          ]
+        },
+        {
+          "absPath": "/Users/a37/code/github/makemeahanzi-tool/packages/npm-container",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^\\."
+          ],
+          "contents": []
+        }
+      ]
+    }
+  },
+  "pluginDependencies": {
+    "files": {
+      "/Users/a37/code/github/makemeahanzi-tool/packages/npm-container/package.js": "c3e8cd3a62b69505df8ff57b09717e4ef755de55"
+    },
+    "potentiallyUnusedFiles": [],
+    "directories": []
+  },
+  "pluginProviderPackageMap": {
+    "npm-container": {
+      "kind": "local",
+      "sourceRoot": "/Users/a37/code/github/makemeahanzi-tool/packages/npm-container"
+    },
+    "meteor": {
+      "kind": "versioned",
+      "version": "1.10.0"
+    }
+  },
+  "includeCordovaUnibuild": false
+}

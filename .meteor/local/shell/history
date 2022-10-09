@@ -1,0 +1,15 @@
+Meteor.call('restore');
+a
+Meteor.call('restore');
+Meteor.call('restore')
+Meteor.call('restore')
+Meteor.call('export');
+Meteor.call('exportSVGs');
+Meteor.call('restore')
+Meteor.call('export');
+Meteor.call('exportSVGs');
+Meteor.call('exportSVGs');
+Meteor.call('restore')
+Meteor.call('restore')
+exit
+exit()

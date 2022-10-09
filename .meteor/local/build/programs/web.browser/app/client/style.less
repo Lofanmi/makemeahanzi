@@ -1,0 +1,259 @@
+.panel-title {
+  font-size: 16px;
+}
+.panel-title a {
+  color: #8cf;
+}
+.progress {
+  height: 18px;
+  margin-bottom: 0;
+}
+div.value[contenteditable="true"] {
+  border: 1px dotted #666;
+  display: inline-block;
+  margin-left: 4px;
+  min-width: 24px;
+  padding: 0 4px;
+  text-align: center;
+}
+#navbar {
+  cursor: default !important;
+  -webkit-user-select: none !important;
+}
+#navbar .navbar-brand:hover {
+  color: white !important;
+}
+#navbar .progress {
+  float: right;
+  margin-top: 21px;
+  margin-right: -3px;
+  width: 298px;
+}
+#navbar .progress .progress-bar span {
+  color: #2c3e50;
+  font-size: 14px;
+  line-height: 18px;
+  padding-left: 4px;
+}
+#navbar .navbar-right {
+  margin-right: 12px;
+}
+#navbar .navbar-right .navbar-brand {
+  -webkit-user-select: none !important;
+  cursor: pointer;
+  font-size: 30px;
+  line-height: 60px;
+  min-width: 60px;
+  padding: 0;
+  text-align: center;
+}
+#navbar .navbar-right .navbar-brand:hover {
+  background-color: #425d84;
+}
+#navbar .navbar-right .navbar-brand.disabled,
+#navbar .navbar-right .navbar-brand.disabled:hover {
+  background-color: inherit;
+  cursor: default;
+  color: #6e9bdc !important;
+}
+#editor {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 60px;
+  bottom: 0;
+}
+#editor .left-pane {
+  float: left;
+  width: 680px;
+}
+#editor .left-pane .metadata,
+#editor .left-pane .status {
+  margin: 16px;
+}
+#editor .left-pane .metadata .field {
+  margin: 12px 0 4px;
+}
+#editor .left-pane .metadata .field .control-label {
+  margin-right: 4px;
+  text-align: right;
+  width: 96px;
+}
+#editor .left-pane .metadata .reference,
+#editor .left-pane .metadata .separator {
+  display: inline-block;
+  margin: 0 4px 4px 0;
+}
+#editor .left-pane .metadata .separator:last-child {
+  visibility: hidden;
+}
+#editor .left-pane .status .template {
+  margin: 8px 8px 4px;
+}
+#editor .left-pane .status .log {
+  margin-bottom: 0;
+}
+#editor .left-pane .status .log .line {
+  list-style: none;
+  margin: 6px 0;
+  position: relative;
+}
+#editor .left-pane .status .log .line.error {
+  color: red;
+}
+#editor .left-pane .status .log .line.success {
+  color: green;
+}
+#editor .left-pane .status .log .line:before {
+  content: "•";
+  position: absolute;
+  transform: translate(-50%, -50%) translateY(-1px);
+  left: -12px;
+  top: 50%;
+}
+#editor svg {
+  float: left;
+  height: 100%;
+  margin: 0 auto;
+}
+#editor svg path.selectable:hover,
+#editor svg line.selectable:hover {
+  cursor: pointer;
+  stroke: blue;
+  stroke-width: 8;
+}
+#editor svg circle.selectable:hover {
+  cursor: pointer;
+  fill: blue;
+  stroke: blue;
+}
+#editor svg path.animation {
+  fill: none;
+  stroke: black;
+  stroke-linecap: round;
+  stroke-width: 128;
+}
+#editor .status .template.path_stage .options {
+  display: inline-block;
+}
+#editor .status .template.path_stage .options .option,
+#editor .status .template.path_stage .options .separator {
+  display: inline-block;
+  margin-left: 4px;
+}
+#editor .status .template.path_stage .options .option {
+  cursor: pointer;
+}
+#editor .status .template.path_stage .options .separator:last-child {
+  visibility: hidden;
+}
+#editor .status .template.path_stage .alternative {
+  margin: 8px 0;
+}
+#editor .status .template.analysis_stage .control-label {
+  margin: 0 4px 0 0;
+}
+#editor .status .template.analysis_stage .decomposition,
+#editor .status .template.analysis_stage .radical,
+#editor .status .template.analysis_stage .etymology {
+  margin: 18px 0;
+}
+#editor .status .template.analysis_stage .decomposition .tree,
+#editor .status .template.analysis_stage .radical .tree,
+#editor .status .template.analysis_stage .etymology .tree,
+#editor .status .template.analysis_stage .decomposition .component,
+#editor .status .template.analysis_stage .radical .component,
+#editor .status .template.analysis_stage .etymology .component {
+  margin: 6px 0;
+}
+#editor .status .template.analysis_stage .decomposition .component div.value,
+#editor .status .template.analysis_stage .radical .component div.value,
+#editor .status .template.analysis_stage .etymology .component div.value {
+  margin: 0;
+}
+#editor .status .template.analysis_stage .decomposition .form-control,
+#editor .status .template.analysis_stage .radical .form-control,
+#editor .status .template.analysis_stage .etymology .form-control {
+  background-color: #f8f8f8;
+  display: inline-block;
+  height: 28px;
+  padding: 0;
+  width: auto;
+}
+#editor .status .template.analysis_stage .decomposition .header,
+#editor .status .template.analysis_stage .radical .header,
+#editor .status .template.analysis_stage .etymology .header {
+  display: inline-block;
+  margin-right: 4px;
+  text-align: right;
+  width: 150px;
+}
+#editor .status .template.order_stage .character {
+  border: 1px dotted gray;
+  margin: 8px 0;
+  position: absolute;
+  left: 818px;
+  right: 16px;
+  top: 8px;
+}
+#editor .status .template.order_stage .component {
+  border: 1px dotted gray;
+  margin: 8px 0;
+  position: absolute;
+  text-align: center;
+  left: 680px;
+  width: 122px;
+}
+#editor .status .template.order_stage .component svg {
+  float: none;
+  height: 120px;
+  width: 120px;
+}
+#editor .status .template.order_stage .component .clear {
+  clear: both;
+  margin-bottom: -5px;
+}
+#editor .status .template.order_stage .permutation {
+  margin: 8px 0;
+}
+#editor .status .template.order_stage .permutation .entry {
+  border: 1px dotted gray;
+  cursor: pointer;
+  margin: 0;
+  padding: 2px 8px;
+}
+#editor .status .template.order_stage .permutation .entry .background {
+  opacity: 0.1;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+#editor .status .template.order_stage .permutation .entry .reverse {
+  float: right;
+}
+#editor .status .template.order_stage .permutation .entry .small svg {
+  height: 24px;
+  width: 24px;
+}
+#editor .status .template.order_stage .permutation .entry .clear {
+  clear: both;
+}
+#editor .status .template.order_stage .permutation .entry .character {
+  display: none;
+}
+#editor .status .template.order_stage .permutation .entry .character line {
+  marker-end: url(#arrow);
+  stroke: red;
+  stroke-width: 16;
+}
+#editor .status .template.order_stage .permutation .entry:hover .character {
+  display: block;
+}
+#editor .status .template.verified_stage svg {
+  margin: 0;
+  position: absolute;
+  left: 680px;
+  top: 0;
+}
